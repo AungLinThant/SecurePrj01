@@ -1,17 +1,17 @@
 variable "workspace_name" {
   description = "Workspace Name"
   type        = string
-  default     = "step06-tfc-create-hvn-vpc-peering" ##have to change workspace##
+  default     = "Step06_Create_Peering_between_VPC_HVN" ### have to change WorkSpace Name
 }
 variable "org_name" {
   description = "Organization Name"
   type        = string
-  default     = "hc-secureops-alt" ##have to change org id##
+  default     = "SecureOps_Project" ### have to change ORG ID
 }
 variable "vault_url" {
   description = "The address of the Vault instance runs will access."
   type        = string
-  default     = "https://hcp-vault-cluster-public-vault-fe8c7290.007914ae.z1.hashicorp.cloud:8200"
+  default     = "https://hcp-vault-cluster-public-vault-13c3ff98.fabc5db3.z1.hashicorp.cloud:8200" ### have to change new vault cluster id
 }
 variable "run_role" {
   description = "TFC_VAULT_RUN_ROLE"
