@@ -6,7 +6,7 @@ variable "workspace_name" {
 variable "org_name" {
   description = "Organization Name"
   type        = string
-  default     = "hc-secureops-alt"  ##have to change org id##
+  default     = "hc-secureops-alt" ##have to change org id##
 }
 variable "vault_url" {
   description = "The address of the Vault instance runs will access."
