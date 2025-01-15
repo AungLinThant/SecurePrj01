@@ -1,12 +1,12 @@
 variable "workspace_name" {
   description = "Workspace Name"
   type        = string
-  default     = "Step06_Create_Peeristep06-tfc-create-hvn-vpc-peering"
+  default     = "step06-tfc-create-hvn-vpc-peering" ##have to change workspace##
 }
 variable "org_name" {
   description = "Organization Name"
   type        = string
-  default     = "hc-secureops-alt"
+  default     = "hc-secureops-alt"  ##have to change org id##
 }
 variable "vault_url" {
   description = "The address of the Vault instance runs will access."
