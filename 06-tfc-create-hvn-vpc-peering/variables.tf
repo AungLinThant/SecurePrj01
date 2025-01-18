@@ -1,5 +1,5 @@
 variable "vpc_id" {
-  description = "(Need to Change) VPC ID"
+  description = "vpc-067c790f2855f4617"
 }
 
 
